@@ -13,7 +13,7 @@ Author URI:  http://lumpylemon.uk
 	What it does
 	------------
 
-	This plugin blocks any attempt to login to your WordPress website with the usernames 'admin' or 'administrator'.
+	This plugin blocks any attempt to log in to your WordPress website with the usernames 'admin' or 'administrator'.
 
 	Why? Because a cursory inspection of my server logs showed that most automated brute force hacking attempts use one of these two usernames. Stopping these attempts as early as possible significantly reduces load on the server.
 
