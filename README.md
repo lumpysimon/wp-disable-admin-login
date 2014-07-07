@@ -4,17 +4,17 @@ A WordPress plugin that blocks logins using the usernames 'admin' or 'administra
 
 ## What it does
 
-that blocks any attempt to login to your WordPress website with the usernames 'admin' or 'administrator'
+Any attempts to log in to your WordPress website with the usernames 'admin' or 'administrator' are blocked.
 
 Why? Because a cursory inspection of my server logs showed that most automated brute force hacking attempts use one of these two usernames. Stopping these attempts as early as possible significantly reduces load on the server.
 
 ## Installation
 
-Important! Before installation, you must ensure that your main administrator username is set to something other than 'admin' or 'administrator', or you wll be locked out of your own website.
+**Important!** Before installation, you must ensure that your main administrator username is set to something other than 'admin' or 'administrator', or you wll be locked out of your own website.
 
 Upload this file to wp-content/mu-plugins
 
-Do not put it in a sub-folder.
+**Do not** put it in a sub-folder.
 
 The plugin will be automatically activated. Running it as a mu-plugin ('Must Use' plugin) allows the blocking to happen very early, thus reducing the amount of WordPress code that runs, therefore reducing load on your server.
 
